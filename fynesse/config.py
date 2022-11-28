@@ -1,4 +1,6 @@
 import os
+from os.path import dirname
+
 import yaml
 
 default_file = os.path.join(os.path.dirname(__file__), "defaults.yml")
@@ -33,3 +35,8 @@ if config=={}:
 for key, item in config.items():
     if item is str:
         config[key] = os.path.expandvars(item)
+
+_data_directory = os.path.join(dirname(dirname(os.path.abspath(__file__))), 'data')
+config['data_directory'] = _data_directory
+if not os.path.exists(_data_directory):
+    os.mkdir(_data_directory)
