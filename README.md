@@ -25,3 +25,8 @@ Data that is accessible can be imported (via APIs or database calls or reading a
 ## Address
 
 The final aspect of the process is to *address* the question. We'll spend the least time on this aspect here, because it's the one that is most widely formally taught and the one that most researchers are familiar with. In statistics, this might involve some confirmatory data analysis. In machine learning it may involve designing a predictive model. In many domains it will involve figuring out how best to visualise the data to present it to those who need to make the decisions. That could involve a dashboard, a plot or even summarisation in an Excel spreadsheet.
+
+# Licensing
+- Contains HM Land Registry data © Crown copyright and database right 2021. This data is licensed under the Open Government Licence v3.0.
+- Office for National Statistics licensed under the Open Government Licence v.3.0 
+- Contains OS data © Crown copyright and database right 2022

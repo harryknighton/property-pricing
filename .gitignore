@@ -2,3 +2,5 @@ data
 .ipynb_checkpoints
 credentials.yaml
 .idea
+cache
+__pycache__

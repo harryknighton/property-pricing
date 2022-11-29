@@ -1,5 +1,6 @@
-# Place config informatio you want everyone to have here.
-data_url: https://raw.githubusercontent.com/lawrennd/datasets_mirror/main/
+# Place config information you want everyone to have here.
 database_url: database-hjk51.c0efg5irgbtv.eu-west-2.rds.amazonaws.com
 database_name: property_pricing
 port: 3306
+training_bbox: 0.25
+test_size: 0.2
